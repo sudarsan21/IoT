@@ -10,7 +10,7 @@ void setup() {
   lcd.print("Welcome To TEAM PVS");
   delay(3000);
   lcd.clear();
-  lcd.print("Hello World");
+  lcd.print("IR");
   delay(3000);
   lcd.clear();
 }
