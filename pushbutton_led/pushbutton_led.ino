@@ -7,12 +7,12 @@ void setup() {
   Serial.begin(9600);
 
   lcd.begin(16, 2);
-  lcd.print("SR Arduino IoT");
+  lcd.print("DS_COMPANY IoT");
   lcd.setCursor(0,1);
-  lcd.print("Experimenter");
+  lcd.print("WELCOME TO TEAM PVS");
   delay(3000);
   lcd.clear();
-  lcd.print("Hello World");
+  lcd.print("PUSH_BUTTON");
   delay(3000);
   lcd.clear();
 }
