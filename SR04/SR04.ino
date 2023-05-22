@@ -5,12 +5,12 @@ int i;
 void setup() {
   Serial.begin(300);
   lcd.begin(16, 2);
-  lcd.print("DS_COMPANY IoT");
+  lcd.print("DS_IoT");
   lcd.setCursor(0,1);
   lcd.print("WELCOME TO TEAM PVS");
   delay(3000);
   lcd.clear();
-  lcd.print("Distance");
+  lcd.print("PVS_Distance");
   delay(3000);
   lcd.clear();
 }
