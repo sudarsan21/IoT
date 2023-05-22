@@ -7,7 +7,7 @@ void setup() {
   Serial.begin(9600);
 
   lcd.begin(16, 2);
-  lcd.print("DS_COMPANY IoT");
+  lcd.print("DS_IoT");
   lcd.setCursor(0,1);
   lcd.print("WELCOME TO TEAM PVS");
   delay(3000);
